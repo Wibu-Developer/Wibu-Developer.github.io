@@ -78,5 +78,7 @@ body {
   font-family: "Karla";
 }
 .card {
-  background-color: #3c3c3f !important;
+  background-color: rgb(38, 38, 38) !important;
+  border-style: groove;
+  border-color: rgb(73, 73, 73);
 }
