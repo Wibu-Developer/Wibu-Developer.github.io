@@ -61,6 +61,13 @@
   background-color: #101010 !important;
 }
 
+.navbar-dark {
+  /* From https://css.glass */
+  background: rgba(16, 16, 16, 0.24) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+}
+
 .btn-primary {
   background: #5865f2;
 }
@@ -81,4 +88,7 @@ body {
   background-color: rgb(38, 38, 38) !important;
   border-style: groove;
   border-color: rgb(73, 73, 73);
+}
+::-webkit-scrollbar {
+  display: none;
 }
